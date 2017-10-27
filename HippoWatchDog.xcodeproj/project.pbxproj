@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4CDFDB1F3EE27A007B3A1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CDFDA1F3EE27A007B3A1F /* main.m */; };
+		1F4CDFDE1F3EE27A007B3A1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CDFDD1F3EE27A007B3A1F /* AppDelegate.m */; };
+		1F4CDFE11F3EE27A007B3A1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CDFE01F3EE27A007B3A1F /* ViewController.m */; };
+		1F4CDFE41F3EE27A007B3A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4CDFE21F3EE27A007B3A1F /* Main.storyboard */; };
+		1F4CDFE61F3EE27A007B3A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4CDFE51F3EE27A007B3A1F /* Assets.xcassets */; };
+		1F4CDFE91F3EE27A007B3A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4CDFE71F3EE27A007B3A1F /* LaunchScreen.storyboard */; };
+		1F4CDFF21F3EE2B8007B3A1F /* HippoWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CDFF11F3EE2B8007B3A1F /* HippoWatchdog.m */; };
+		1F4CDFFB1F3F4CEB007B3A1F /* HippoBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4CDFFA1F3F4CEB007B3A1F /* HippoBacktraceLogger.m */; };
+		1F97B5A71F4099E70011D973 /* NewWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97B5A61F4099E70011D973 /* NewWatchDog.m */; };
+		1F97B5A91F40A04C0011D973 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F97B5A81F40A04C0011D973 /* CrashReporter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F4CDFD61F3EE27A007B3A1F /* HippoWatchDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HippoWatchDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4CDFDA1F3EE27A007B3A1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F4CDFDC1F3EE27A007B3A1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F4CDFDD1F3EE27A007B3A1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F4CDFDF1F3EE27A007B3A1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F4CDFE01F3EE27A007B3A1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F4CDFE31F3EE27A007B3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4CDFE51F3EE27A007B3A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4CDFE81F3EE27A007B3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F4CDFEA1F3EE27A007B3A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4CDFF01F3EE2B8007B3A1F /* HippoWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HippoWatchdog.h; sourceTree = "<group>"; };
+		1F4CDFF11F3EE2B8007B3A1F /* HippoWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HippoWatchdog.m; sourceTree = "<group>"; };
+		1F4CDFF91F3F4CEB007B3A1F /* HippoBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HippoBacktraceLogger.h; sourceTree = "<group>"; };
+		1F4CDFFA1F3F4CEB007B3A1F /* HippoBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HippoBacktraceLogger.m; sourceTree = "<group>"; };
+		1F97B5A51F4099E70011D973 /* NewWatchDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewWatchDog.h; sourceTree = "<group>"; };
+		1F97B5A61F4099E70011D973 /* NewWatchDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewWatchDog.m; sourceTree = "<group>"; };
+		1F97B5A81F40A04C0011D973 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4CDFD31F3EE27A007B3A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F97B5A91F40A04C0011D973 /* CrashReporter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4CDFCD1F3EE27A007B3A1F = {
+			isa = PBXGroup;
+			children = (
+				1F97B5A81F40A04C0011D973 /* CrashReporter.framework */,
+				1F4CDFD81F3EE27A007B3A1F /* HippoWatchDog */,
+				1F4CDFD71F3EE27A007B3A1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4CDFD71F3EE27A007B3A1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4CDFD61F3EE27A007B3A1F /* HippoWatchDog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4CDFD81F3EE27A007B3A1F /* HippoWatchDog */ = {
+			isa = PBXGroup;
+			children = (
+				1F4CDFDC1F3EE27A007B3A1F /* AppDelegate.h */,
+				1F4CDFDD1F3EE27A007B3A1F /* AppDelegate.m */,
+				1F4CDFDF1F3EE27A007B3A1F /* ViewController.h */,
+				1F4CDFE01F3EE27A007B3A1F /* ViewController.m */,
+				1F4CDFF91F3F4CEB007B3A1F /* HippoBacktraceLogger.h */,
+				1F4CDFFA1F3F4CEB007B3A1F /* HippoBacktraceLogger.m */,
+				1F4CDFF01F3EE2B8007B3A1F /* HippoWatchdog.h */,
+				1F4CDFF11F3EE2B8007B3A1F /* HippoWatchdog.m */,
+				1F97B5A51F4099E70011D973 /* NewWatchDog.h */,
+				1F97B5A61F4099E70011D973 /* NewWatchDog.m */,
+				1F4CDFE21F3EE27A007B3A1F /* Main.storyboard */,
+				1F4CDFE51F3EE27A007B3A1F /* Assets.xcassets */,
+				1F4CDFE71F3EE27A007B3A1F /* LaunchScreen.storyboard */,
+				1F4CDFEA1F3EE27A007B3A1F /* Info.plist */,
+				1F4CDFD91F3EE27A007B3A1F /* Supporting Files */,
+			);
+			path = HippoWatchDog;
+			sourceTree = "<group>";
+		};
+		1F4CDFD91F3EE27A007B3A1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F4CDFDA1F3EE27A007B3A1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4CDFD51F3EE27A007B3A1F /* HippoWatchDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4CDFED1F3EE27A007B3A1F /* Build configuration list for PBXNativeTarget "HippoWatchDog" */;
+			buildPhases = (
+				1F4CDFD21F3EE27A007B3A1F /* Sources */,
+				1F4CDFD31F3EE27A007B3A1F /* Frameworks */,
+				1F4CDFD41F3EE27A007B3A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HippoWatchDog;
+			productName = HippoWatchDog;
+			productReference = 1F4CDFD61F3EE27A007B3A1F /* HippoWatchDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4CDFCE1F3EE27A007B3A1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = justinjing;
+				TargetAttributes = {
+					1F4CDFD51F3EE27A007B3A1F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F4CDFD11F3EE27A007B3A1F /* Build configuration list for PBXProject "HippoWatchDog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4CDFCD1F3EE27A007B3A1F;
+			productRefGroup = 1F4CDFD71F3EE27A007B3A1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4CDFD51F3EE27A007B3A1F /* HippoWatchDog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4CDFD41F3EE27A007B3A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4CDFE91F3EE27A007B3A1F /* LaunchScreen.storyboard in Resources */,
+				1F4CDFE61F3EE27A007B3A1F /* Assets.xcassets in Resources */,
+				1F4CDFE41F3EE27A007B3A1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4CDFD21F3EE27A007B3A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4CDFE11F3EE27A007B3A1F /* ViewController.m in Sources */,
+				1F4CDFDE1F3EE27A007B3A1F /* AppDelegate.m in Sources */,
+				1F4CDFDB1F3EE27A007B3A1F /* main.m in Sources */,
+				1F97B5A71F4099E70011D973 /* NewWatchDog.m in Sources */,
+				1F4CDFF21F3EE2B8007B3A1F /* HippoWatchdog.m in Sources */,
+				1F4CDFFB1F3F4CEB007B3A1F /* HippoBacktraceLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F4CDFE21F3EE27A007B3A1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4CDFE31F3EE27A007B3A1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F4CDFE71F3EE27A007B3A1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4CDFE81F3EE27A007B3A1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4CDFEB1F3EE27A007B3A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F4CDFEC1F3EE27A007B3A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4CDFEE1F3EE27A007B3A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HippoWatchDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alibaba-inc.com.HippoWatchDog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F4CDFEF1F3EE27A007B3A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HippoWatchDog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alibaba-inc.com.HippoWatchDog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4CDFD11F3EE27A007B3A1F /* Build configuration list for PBXProject "HippoWatchDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4CDFEB1F3EE27A007B3A1F /* Debug */,
+				1F4CDFEC1F3EE27A007B3A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4CDFED1F3EE27A007B3A1F /* Build configuration list for PBXNativeTarget "HippoWatchDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4CDFEE1F3EE27A007B3A1F /* Debug */,
+				1F4CDFEF1F3EE27A007B3A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F4CDFCE1F3EE27A007B3A1F /* Project object */;
+}
